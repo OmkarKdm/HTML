@@ -3,7 +3,13 @@ body {
   }
   h2 {
     color: rgb(0, 0, 0);
+    font-family: verdana;
+    font-size: 300%;
   }
   p {
     color: red;
+    border: 2px solid rgb(0, 0, 0);
+    padding: 30px;
+    font-family: courier;
+    font-size: 160%;
   }
