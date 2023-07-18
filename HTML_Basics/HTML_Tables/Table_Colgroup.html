@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Styled Table with ColGroup</title>
+    <style>
+      table {
+        border-collapse: collapse;
+        width: 100%;
+      }
+
+      th,
+      td {
+        border: 1px solid black;
+        padding: 8px;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <table>
+      <colgroup>\
+        <col span="1" style="background-color: lightcoral;">
+        <col span="1" style="background-color:lightcoral;">
+        <col span="1" style="background-color:bisque;">
+      </colgroup>
+      <tr>
+        <th></th>
+        <th colspan="2">Product</th>
+        <th>Price (INR)</th>
+      </tr>
+      <tr>
+        <th rowspan="2">Fruits</th>
+        <td>Apple</td>
+        <td>Banana</td>
+        <td>&#8377; 150</td>
+      </tr>
+      <tr>
+        <td colspan="2">Orange</td>
+        <td>&#8377; 80</td>
+      </tr>
+      <tr>
+        <th>Vegetables</th>
+        <td>Carrot</td>
+        <td>Broccoli</td>
+        <td>&#8377; 200</td>
+      </tr>
+      <tr>
+        <th rowspan="3">Dairy</th>
+        <td>Milk</td>
+        <td>Cheese</td>
+        <td>&#8377; 300</td>
+      </tr>
+      <tr>
+        <td colspan="2">Yogurt</td>
+        <td>&#8377; 120</td>
+      </tr>
+      <tr>
+        <td colspan="2">Butter</td>
+        <td>&#8377; 250</td>
+      </tr>
+    </table>
+  </body>
+</html>
