@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class attribute with Javascipt</title>
+    <style>
+        /* Center the button horizontally */
+        #colorButton {
+            display: block;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+    <h2 style="text-align: center;">Demonstration of a Javascipt</h2>
+    <p style="text-align: center;">following button will generate random colors for a press of a button.</p>
+    <button id="colorButton">Click Me!</button>
+
+    <script>
+        function randomize()
+        {
+             // Generate random RGB values (0-255)
+        var red = Math.floor(Math.random() * 256);
+        var green = Math.floor(Math.random() * 256);
+        var blue = Math.floor(Math.random() * 256);
+
+        // Set the body background color using the generated RGB values
+        document.body.style.backgroundColor = `rgb(${red}, ${green}, ${blue})`;
+        }
+        var colorButton = document.getElementById('colorButton');
+        colorButton.addEventListener('click', randomize);
+    </script>
+</body>
+</html>
