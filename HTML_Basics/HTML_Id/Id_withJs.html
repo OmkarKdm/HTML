@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Cool Looking Color Combinations</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            color: #333;
+            margin: 20px;
+        }
+        /* Style for the heading and paragraph */
+        #heading {
+            padding: 10px;
+        }
+
+        #paragraph {
+            margin-top: 10px;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="heading">Cool Looking Color Combinations</h1>
+    <pre id="paragraph">
+    Cool looking color combinations can have a mesmerizing impact on visual aesthetics, 
+    evoking feelings of tranquility, harmony, and sophistication. Some popular cool color 
+    combinations include serene shades of blues and greens, creating a sense of calmness and 
+    nature's tranquility. Combinations like teal and coral offer a refreshing and modern twist, 
+    while navy blue and blush pink exude elegance and sophistication. 
+    Pastel palettes, such as mint green and lavender, evoke a soft and dreamy atmosphere. 
+    Cool color schemes are often associated with water, sky, and nature, 
+    offering a soothing and refreshing appeal. Whether used in graphic design, interior decor,
+    or fashion, cool color combinations have the power to captivate and inspire, 
+    making them a popular choice for creating stylish and visually appealing compositions.</pre>
+
+    <button onclick="applyColorCombination()">Apply Color Combination</button>
+
+    <script>
+        // JavaScript code goes here
+        function applyColorCombination() {
+            // Generate random RGB values for cool color combinations
+            var red = Math.floor(Math.random() * 150) + 100; // Ranges from 100 to 249
+            var green = Math.floor(Math.random() * 150) + 100; // Ranges from 100 to 249
+            var blue = Math.floor(Math.random() * 150) + 100; // Ranges from 100 to 249
+
+            // Set the new color for heading and paragraph
+            var heading = document.getElementById('heading');
+            heading.style.color = `rgb(${red}, ${green}, ${blue})`;
+
+            var paragraph = document.getElementById('paragraph');
+            paragraph.style.color = `rgb(${red}, ${green}, ${blue})`;
+
+            // Invert RGB values for contrasting background color
+            var invertedRed = 255 - red;
+            var invertedGreen = 255 - green;
+            var invertedBlue = 255 - blue;
+
+            // Set the contrasting background color for paragraph
+            paragraph.style.backgroundColor = `rgb(${invertedRed}, ${invertedGreen}, ${invertedBlue})`;
+        }
+    </script>
+</body>
+</html>
