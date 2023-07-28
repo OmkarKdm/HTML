@@ -1,18 +1,76 @@
 <!DOCTYPE html>
 <html>
-   <head>
-      <title>Blog | a more deep dive into HTML</title>
-      <link rel="stylesheet" type="text/css" href="style.css">
-   </head>
-   <body>
-      <header class="header">
-         <nav>
-            <a href="main.html">Home</a>
-            
-            <a href="#">About</a>
+<head>
+   <meta charset="UTF-8">
+   <title>
+     Blog | Deep dive into the more HTML tags and effective use CSS
+   </title>
+   <link rel="stylesheet" href="style.css">
+ </head>
 
-            <a href="main.html">Blog</a>
-         </nav>
-      </header>
-   </body>
+ <body>
+   <header class="header">
+     <nav>
+       <a href="main.html">Home</a>
+       <a href="#">About</a>
+       <a href="main.html">Blog</a>
+     </nav>
+   </header>
+   <main>
+     <section class="blog">
+       <article id="1">
+         <div class="time">
+           <time datetime="25-11-2015">Novemeber 25 2015</time>
+         </div>
+         <div>
+           <img src="cats.jpg" alt="Cats">
+         </div>
+         <h2 class="heading">This is my first Article</h2>
+         <p class="text">
+           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum et
+           non, asperiores, numquam tenetur fuga quos vitae suscipit illo
+           debitis excepturi doloremque ab provident quibusdam possimus
+           accusamus neque. Id, nostrum.
+         </p>
+         <p class="text">
+           Lorem, ipsum dolor sit amet consectetur adipisicing elit. In
+           voluptatum, quam vel magni reprehenderitpariatur atque harum.
+         </p>
+         <p class="text">
+           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus
+           deleniti dolore soluta accusamus sint quosneque assumenda.
+         </p>
+         <a href="sub_article1.html">Read More</a>
+         <hr>
+       </article>
+       <article id="2">
+         <div class="time">
+           <time datetime="25-11-2015">December 25 2015</time>
+         </div>
+         <div>
+           <img src="puppies.jpg" alt="Puppies">
+         </div>
+         <h2 class="heading">This is another Article</h2>
+         <p class="text">
+           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum et
+           non, asperiores, numquam tenetur fuga quos vitae suscipit illo
+           debitis excepturi doloremque ab provident quibusdam possimus
+           accusamus neque. Id, nostrum.
+         </p>
+         <p class="text">
+           Lorem, ipsum dolor sit amet consectetur adipisicing elit. In
+           voluptatum, quam vel magni reprehenderitpariatur atque harum.
+         </p>
+         <p class="text">
+           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus
+           deleniti dolore soluta accusamus sint quosneque assumenda.
+         </p>
+         <a href="sub_article2.html">Read More</a>
+       </article>
+     </section>
+   </main>
+   <footer class="footer">
+     <small>© AltCampus 2019</small>
+   </footer>
+</body>
 </html>

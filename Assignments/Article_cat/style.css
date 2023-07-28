@@ -1,5 +1,48 @@
+body {
+	line-height: 1.5;
+	font-family: "Open Sans", sans-serif;
+}
 .header {
 	background-color: #c786c7;
 	text-align: center;
 	padding: 20px;
+}
+a {
+	margin-left: 16px;
+	margin-right: 16px;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #454ce7;
+	font-weight: 600;
+}
+/* Article */
+img {
+	width: 100%;
+}
+.blog {
+	width: 600px;
+	margin: 0 auto;
+}
+.time {
+	color: #454ce7;
+	margin: 16px 0;
+	text-transform: uppercase;
+}
+.heading {
+	font-size: 36px;
+	color: black;
+	margin: 24px 0;
+	text-transform: capitalize;
+}
+.text {
+	font-size: 18px;
+	margin-bottom: 16px;
+}
+/* Footer */
+.footer {
+	background-color: #9090e8;
+	text-align: center;
+	padding: 20px;
+	margin-top: 24px;
+	font-size: 24px;
 }
