@@ -27,4 +27,25 @@ main{
     color: #caae11;
     background-color: rgb(223, 223, 223);
 }
+#more
+{
+    font-size: x-large;
+    padding:0.5em;
+    margin-top:10px;
+    margin: 30px auto;
+    max-width: 150px;
+}
+#button
+{
+    background-color: rgb(223, 223, 223);
+    text-decoration:none;
+    color:rgb(243, 129, 129);
+    padding:10px;
+    border-radius: 10px;
+}
+#button:hover
+{
+    background-color: rgb(243, 129, 129);
+    color:rgb(223, 223, 223);
+}
 
