@@ -1,11 +1,37 @@
-#description
+.description
 {
     background-color: rgb(222,222,222);
     font-family: serif;
     font-weight: 100;
     padding: 10px;
     font-size: x-large;
+    margin-top:10px;
 }
 li{
     color:rgb(26, 44, 79);
+}
+p{
+    color: rgb(44, 63, 95);
+    text-align: justify;
+    padding: 10px;
+}
+
+.comment {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px 0;
+    font-style: italic;
+}
+.comment p {
+    margin: 0;
+}
+.description a
+{
+    text-decoration: none;
+}
+a:hover
+{
+    background-color: rgb(44, 63, 95);
+    color:#ddd;
 }
