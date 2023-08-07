@@ -1,10 +1,30 @@
+body{
+    margin:0;
+    background-color: whitesmoke;
+}
 .header{
-    text-decoration: underline;
     color: #caae11;
     background-color: rgb(223, 223, 223); 
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
     font-size: 36px;
+    text-transform: uppercase;
+    padding: 1em;
+}
+main{
+    max-width:720px;
+    margin:30px auto;
+    padding:30px;
+    background-color: #f2f2f2;
+    border-radius:5px;
+    box-shadow: 0 3px 5px rgba(0,0,0,0.1);
 }
 
+#summery{
+    font-family: serif;
+    font-weight: 700;
+    font-size: x-large;
+    color: #caae11;
+    background-color: rgb(223, 223, 223); ;
+}
 
