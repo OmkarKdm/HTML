@@ -1,0 +1,46 @@
+/* Stylesheet created by Omkar */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    color: navy;
+    background-color: #F3E7E7; /* Pale pink background color */
+}
+
+
+h1 {
+    font-family: "Arial Black", Arial, sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 3px;
+    text-decoration: underline overline;
+}
+
+h2, h3 {
+    font-family: "Arial Black", Arial, sans-serif;
+    letter-spacing: 3px;
+    text-decoration: underline overline;
+}
+
+
+.hot { 
+    letter-spacing: 6px;
+    font-style: italic;
+    color: hotpink;
+    background-color: yellow;
+}
+
+
+.cold {
+
+    letter-spacing: 20px;
+    text-align: center;
+    color: #00BFFF; /* Bright blue text color */
+    background-color: #B0E2FF; /* Pale blue background color */
+}
+
+
+hr {
+    border: none;
+    height: 5px;
+    background-color: red;
+}
